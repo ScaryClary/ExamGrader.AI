@@ -1,5 +1,15 @@
-#add questions and expectations on the answers from the question
-examples = """
+
+#update with your expectations on the output format here (my old instructions below)
+scoreInstructions = """
+Always format the feedback as: '[score]/5. [feedback]'
+The feedback score should range from a score of 1-5 with 1 being the lowest, 3 being poor, and 5 being adequate. 
+The feedback, if the student has done poorly, should be very concise and explained within one or two sentences. 
+Simply tell in a sentence or two what went wrong. Do not suggest how to fix their answer. Keep feedback short and brief.
+If the student does not get a perfect score, provide a response about incorrect or underdeveloped. 
+"""
+
+#update the questions and expectations on the answers here (my old instructions below)
+strExpectationVariable = """
 Question 1: 
 “A mid-sized IT consulting firm is looking to switch to cloud computing to scale operations and improve efficiency. What things would they likely consider?”
 For this question, you should look for answers that address key considerations such as the benefits of cloud computing, including scalability, cost reduction, and improved accessibility. Students could mention the flexibility offered by cloud providers, the potential savings from avoiding infrastructure maintenance, and how cloud solutions can improve global collaboration. Additionally, they should discuss potential challenges such as data security, privacy, compliance issues, and the need for reliable internet connectivity. Ideally, the answer should demonstrate an understanding of both the advantages and the trade-offs involved in moving to cloud computing.
@@ -14,4 +24,5 @@ Question 4:
 For this question, you should look for answers that evaluate the reliability of the information by applying the three key fact-checking principles discussed in class. Students should discuss who is behind the information, considering the credibility of the YouTuber and whether they are a medical expert. They should analyze the evidence for the claims, such as checking if there are credible studies supporting the idea that metformin extends life or slows aging. Lastly, students should explore what other sources say, by verifying if reputable health organizations or experts agree with the claim. The answer should ultimately express caution about taking any medication without consulting a healthcare professional and emphasize the importance of credible sources and thorough verification before accepting health advice.
 Question 5:
 “What concerns about privacy do people have? Specifically, what are the four dimensions we discussed in class, and give examples of why someone might be concerned about each dimension.”
-For this question, you should look for answers that explain each of the four privacy dimensions discussed in class—improper access, unauthorized secondary use, collection, and errors—along with specific examples of concerns for each. Answers can vary but they should mention each privacy dimension and give an example."""
+For this question, you should look for answers that explain each of the four privacy dimensions discussed in class—improper access, unauthorized secondary use, collection, and errors—along with specific examples of concerns for each. Answers can vary but they should mention each privacy dimension and give an example.
+"""
